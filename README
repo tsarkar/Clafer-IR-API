@@ -1,1 +1,6 @@
+clafer2smt is a library for parsing Clafer's XML IR.
+
 Uses scalaxb to automatically generate XML bindings (http://scalaxb.org/).
+Run scalaxb after each schema change.
+
+Example command: scalaxb -p gsd.clafer.ir ClaferIR.xsd --protocol-file ClaferIR_XmlProtocol.scala
