@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaferIR", "ClaferIR\ClaferIR.csproj", "{613D57E0-4D1A-4005-9D25-FBC409B0206B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaferIR-test", "ClaferIR-test\ClaferIR-test.csproj", "{5FF289BE-93B2-423D-B8FC-82BEC4FBCDE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F5CC78D-879A-4D21-928D-5C71868664A2}"
+	ProjectSection(SolutionItems) = preProject
+		ClaferIR.vsmdi = ClaferIR.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ClaferIR.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{613D57E0-4D1A-4005-9D25-FBC409B0206B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613D57E0-4D1A-4005-9D25-FBC409B0206B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613D57E0-4D1A-4005-9D25-FBC409B0206B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613D57E0-4D1A-4005-9D25-FBC409B0206B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF289BE-93B2-423D-B8FC-82BEC4FBCDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF289BE-93B2-423D-B8FC-82BEC4FBCDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF289BE-93B2-423D-B8FC-82BEC4FBCDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF289BE-93B2-423D-B8FC-82BEC4FBCDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
